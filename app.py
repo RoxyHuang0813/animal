@@ -3,6 +3,7 @@ from flask import Flask, render_template, request, session, redirect, url_for, m
 import random
 from waitress import serve
 
+
 app = Flask(__name__)
 app.secret_key = 'your_secure_key_123'  # 正式環境請用更複雜的金鑰
 
